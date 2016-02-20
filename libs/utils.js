@@ -1,6 +1,6 @@
 var logger = require('./logging');
 
-module.exports = function() {
+module.exports = (function() {
   function Utils() {
 
   }
@@ -9,7 +9,10 @@ module.exports = function() {
 
   /**
    * Show error message and exit app
+   * @memberOf Utils
    * @param  {string} msg Error message
+   * @example
+   *   utils.exitApp();
    */
   function exitApp(msg) {
     logger.error(msg);
@@ -17,4 +20,4 @@ module.exports = function() {
   }
 
   return new Utils();
-}
+}());

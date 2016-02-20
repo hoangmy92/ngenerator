@@ -1,0 +1,23 @@
+{
+  "path": {
+    "default": {
+      "bin": {},
+      "config": {},
+      "logs": {},
+      "migrations": {},
+      "models": {},
+      "modules": {},
+      "public": {},
+      "routes": {},
+      "templates": {},
+      "test": {},
+      "view": {
+        "index.html": "../template/index.html"
+      },
+      "index.js": "",
+      "package.json": "",
+      "README.md": "",
+      ".gitignore": ""
+    }
+  }
+}
